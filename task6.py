@@ -8,3 +8,5 @@ def sort_reverse(list_of_integers):
     >>> sort_reverse([7,1,3,10])
     [10, 7, 3, 1]
     """
+    return sorted(list_of_integers, reverse=True)
+

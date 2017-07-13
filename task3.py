@@ -8,3 +8,5 @@ def split_string(string_to_split):
     >>> split_string("Charlie bit me!")
     ('Charlie', ' bit me!')
     """
+    s = string_to_split
+    return s[:len(s)//2],  s[len(s)//2:]

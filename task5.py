@@ -9,3 +9,6 @@ def make_object():
     >>> c.__class__.__name__ == 'Car'
     True
     """
+    class Car:
+        x = 1
+    return Car()

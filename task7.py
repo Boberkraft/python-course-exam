@@ -8,3 +8,4 @@ def convert_ip(ip):
     >>> convert_ip("192.168.1.1")
     'c0a80101'
     """
+    return ''.join('{:02x}'.format(int(oct)) for oct in ip.split('.'))
